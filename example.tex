@@ -1,12 +1,74 @@
+% Basic preamble
+\documentclass[a0paper,fleqn]{includes/tex/betterposter}
+
+% Pull from header includes
+% sage_latex_guidelines.tex V1.20, 14 January 2017
+
+%------------------------------------------------------------------------------%
+% RMD TEMPLATE FOR SAGE JOURNAL                                                %
+% International Journal of Bilingualism                                        %
+%                                                                              %
+% Original template downloaded from:                                           %
+% https://us.sagepub.com/en-us/nam/manuscript-submission-guidelines            %
+%                                                                              %
+% Reformatted to work with Rmarkdown and R by:                                 %
+% Joseph V. Casillas | Rutgers Univesity | 6/8/2018                            %
+%                                                                              %
+% Available for download at:                                                   %
+% https://github.com/jvcasillas/sage_rmd_template                              %
+%------------------------------------------------------------------------------%
+
+% Original packages
+\usepackage{moreverb,url}
+\usepackage[colorlinks,bookmarksopen,bookmarksnumbered,citecolor=red,urlcolor=red]{hyperref}
+\usepackage{xcolor}
+
+% Additional user specified packages
+\usepackage{tipa}
+
+% Allow syntax highlighting for r code
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{document}
+
+
+% sage_latex_guidelines.tex V1.20, 14 January 2017
+
+%------------------------------------------------------------------------------%
+% RMD TEMPLATE FOR SAGE JOURNAL                                                %
+% International Journal of Bilingualism                                        %
+%                                                                              %
+% Original template downloaded from:                                           %
+% https://us.sagepub.com/en-us/nam/manuscript-submission-guidelines            %
+%                                                                              %
+% Reformatted to work with Rmarkdown and R by:                                 %
+% Joseph V. Casillas | Rutgers Univesity | 6/8/2018                            %
+%                                                                              %
+% Available for download at:                                                   %
+% https://github.com/jvcasillas/sage_rmd_template                              %
+%------------------------------------------------------------------------------%
+
+
+
+
 %%%% Better Poster latex template example v1.0 (2019/04/04)
 %%%% GNU General Public License v3.0
 %%%% Rafael Bailo
 %%%% https://github.com/rafaelbailo/betterposter-latex-template
-%%%% 
+%%%%
 %%%% Original design from Mike Morrison
 %%%% https://twitter.com/mikemorrison
 
-\documentclass[a0paper,fleqn]{betterposter}
 
 %%%% Uncomment the following commands to customise the format
 
@@ -55,18 +117,22 @@
 % Font of main column
 %\renewcommand{\maincolumnfontcolor}{gray}
 
-\begin{document}	
+
 \betterposter{
 %%%%%%%% MAIN COLUMN
 
 \maincolumn{
 %%%% Main space
 
-\textbf{Main finding} goes here,
+
+
+\textbf{Main finding} goes here, 
 \\translated into \textbf{plain English}.
 \\\textbf{Emphasize} the important words.
 }{
 %%%% Bottom space
+
+
 
 %% QR code
 \qrcode{img/qrcode}{img/smartphoneWhite}{
@@ -136,6 +202,7 @@ Here you can add \textbf{supplementary material}. For instance, a new diagram:
 \includegraphics[width=\textwidth]{img/tikzexample2}
 \end{center}
 
+
 Some cute ducklings:
 \begin{center}
 % Picture of ducklings
@@ -144,4 +211,6 @@ Some cute ducklings:
 \includegraphics[width=\textwidth]{img/ducklings}
 \end{center}
 }
+
+
 \end{document}
