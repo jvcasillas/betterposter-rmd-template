@@ -1,6 +1,6 @@
 # Better Poster RMarkdown Template
 
-**This is the RMarkdown port of the Better Poster LaTeX template (created by @rafaelbailo). I am in the process of 
+**This is the RMarkdown port of the [Better Poster LaTeX template](https://github.com/rafaelbailo/betterposter-latex-template) (created by @rafaelbailo). I am in the process of 
 making this completely compatible with RMarkdown.**
 
 The **Better Poster** is [Mike Morrison](https://twitter.com/mikemorrison)'s response to the traditional academic poster. In his own words:
